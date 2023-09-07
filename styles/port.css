@@ -14,6 +14,25 @@ body {
     padding: 100;
 
 }
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+
+
+
+}
+
+.section-description{
+    color: #474747;
+    text-align: center;
+    font-size: 20px;
+    background-image: url(../you.jpg);
+    background-size: cover;
+    
+
+}
 
 /*nav relelted style */
 nav {
@@ -25,7 +44,7 @@ nav {
  
 .nav-titleA{
     color: #181818;
-    font-size: 55px;
+    font-size: 15 px;
     font-weight: 800;
 }
 
@@ -44,15 +63,61 @@ nav a{
 }
 
 /*header realated styles */
-header{
+.header {
+    
     background-color:aliceblue;
+    background-image: url('../you.jpg');
+    background-size: cover; /* Set background-size to cover */
+    background-repeat: no-repeat; /* Prevent image from repeating */
+    background-attachment: fixed; /* Fixed background position */
+    height: 110vh; /* Make header at least 100% of viewport height */
 }
-.banner{
+
+.banner {
     padding: 15px 15px 15px 150px;
     display: flex;
-    align-items:center ;
+    align-items: self-start;
+    justify-content: center; /* Center content vertically and horizontally */
+    height: 100%; /* Occupy the entire height of the header */
 }
 
 .banner .profile-pic{
     width: 500px;
+}
+.banner-greeting {
+    font-size: 35px;
+    color: #181818;
+   
+}
+
+.banner-title {
+    font-size: 55px;
+    font-weight: 700;
+    
+
+}
+
+/*main section syles*/
+
+
+/*about section style*/
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background:white;
+    margin: 130px 0px ;
+   
+}
+
+main{
+    width: 1140px;
+    margin: 0px auto;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content:space-around ;
+}
+.about-info{
+    text-align: center;
 }
