@@ -1,6 +1,13 @@
 /* Common shared style */
 body {
     font-family: 'Open Sans', sans-serif;
+    background-image: url('../solid-background-landscape-gray-ombre-padkc5zq2kmph28p.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    margin: 0; /* Remove default body margin */
+    padding: 0; 
 }
 .text-primary{
     color: crimson;
@@ -28,7 +35,7 @@ body {
     color: #474747;
     text-align: center;
     font-size: 20px;
-    background-image: url(../you.jpg);
+    background-image: url('../solid-background-landscape-gray-ombre-padkc5zq2kmph28p.webp');
     background-size: cover;
     
 
@@ -62,11 +69,11 @@ nav a{
     color: #474747;
 }
 
-/*header realated styles */
+/*header realated styles ggggggggggggggggggggg */
 .header {
     
     background-color:aliceblue;
-    background-image: url('../you.jpg');
+    background-image: url('../shapelined-_JBKdviweXI-unsplash.jpg');
     background-size: cover; /* Set background-size to cover */
     background-repeat: no-repeat; /* Prevent image from repeating */
     background-attachment: fixed; /* Fixed background position */
@@ -102,12 +109,23 @@ nav a{
 
 /*about section style*/
 .about{
-    padding: 130px;
-    border-radius: 10px;
-    background:white;
-    margin: 130px 0px ;
-   
+    padding: 0px;
+    border-radius: 0px;
+    
+    margin: 0px 0px ;
+    
+    background-size: none;
+    
 }
+
+/*.about{
+    padding: 10px;
+    border-radius: 0px;
+    background-image: url('../amar.png.jpg')
+    
+    margin: 0px 0px ;
+   
+}*/
 
 main{
     width: 1140px;
@@ -201,6 +219,7 @@ footer{
     width: 50%;
 }
 
+.social-links a{margin-right: 25px;}
 .contact input[type="text"],.contact input[type="email"], textarea{
     display: block;
     margin-bottom: 25px;
@@ -211,4 +230,3 @@ footer{
     border: 0;
     width: 100%;
 }
-
